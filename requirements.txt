@@ -1,0 +1,10 @@
+transformers==4.38.0
+accelerate
+datasets
+sagemaker==2.204.0
+boto3
+torch==2.1.0
+trl
+peft
+bitsandbytes
+wandb
