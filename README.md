@@ -8,5 +8,7 @@ The model was fine-tuned with instruction-tweet pairs where the instruction aske
 
 LoRA(Low-Rank Adaptation) Config was used where tunable rank 16 matrices were induced instead of changing fine-tuning the Llama architecture itself.
 
+Scaled training across multiple GPU instances using DeepSpeed on Amazon SageMaker; merged and pushed model to Hugging Face Hub.
+
 **Model available at** - https://huggingface.co/Aashish75/llama-3.2-1b-trump0
 
